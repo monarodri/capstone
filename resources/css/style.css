@@ -11,7 +11,11 @@
 
 html {
     font-size: 16px;
-    font-family: "Open Sans", "Arial", sans-serif;
+    font-family: "Montserrat", "Arial", sans-serif;
+}
+
+img {
+    max-width: 100%;
 }
 
 /** Navigation **/
@@ -74,9 +78,6 @@ nav {
     margin-top: 4rem;    
 }
 
-.jumbo img {
-    max-width: 100%;
-}
 
 .jumbo .container {
     width: 25%;
@@ -103,6 +104,74 @@ nav {
     line-height: 1.5;
 }
 
-/** Type Styles **/
+/** Featured Content **/
+
+.featured-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-feature {
+    width: 60%;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.main-feature .info {
+    width: 100%;  
+    margin-top: 2rem;
+}
+
+.main-feature h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-feature p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 1.5rem;
+}
+
+.sub-features {
+    width: 40%;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.sub-features .image-container {
+    width: 35%;
+}
+
+.sub-features .info {
+    width: 65%;
+    margin-left: 1rem;
+}
+
+.sub-features .container {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.sub-features h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.sub-features p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sub-features a {
+    font-weight: 300;
+    color: cornflowerblue;
+}
 
 
