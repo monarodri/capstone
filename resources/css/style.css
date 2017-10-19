@@ -110,11 +110,12 @@ nav {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .main-feature {
     width: 60%;
-    margin-top: 2rem;
     margin-left: 1.5rem;
 }
 
@@ -137,7 +138,6 @@ nav {
 
 .sub-features {
     width: 40%;
-    margin-top: 2rem;
     margin-left: 1.5rem;
 }
 
@@ -174,4 +174,51 @@ nav {
     color: cornflowerblue;
 }
 
+/** Learn **/
+
+.learn {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #eaebec;
+}
+
+.learn h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.learn h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.learn p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+}
+
+.rowone, .rowtwo {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 2rem 4.5rem;
+}
+
+.rowone .container, .rowtwo .container {
+    width: 30%;
+    background-color: white;
+}
+
+.rowone img, .rowtwo img {
+    height: auto;
+}
+
+.rowone .info, .rowtwo .info{
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: white;
+}
 
