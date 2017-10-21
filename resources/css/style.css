@@ -145,14 +145,14 @@ nav {
     margin-top: 2rem;
 }
 
+.main-feature p {
+    margin-top: 1.5rem;
+}
+
 .main-feature h2 {
     font-size: 2rem;
     font-weight: 700;
     text-align: left;
-}
-
-.main-feature p {
-    margin-top: 1.5rem;
 }
 
 .sub-features {
@@ -173,6 +173,10 @@ nav {
     display: flex;
     align-items: center;
     padding: 1rem 1rem;
+}
+
+.sub-features .container:last-child {
+    background-color: gainsboro;
 }
 
 .sub-features p {
@@ -249,23 +253,29 @@ nav {
     margin-top: 0.5rem;
 }
 
-.thesis .image-container {
-    width: 35%;
-}
-
 .thesis-features {
     width: 40%;
     margin-left: 1.5rem;
+}
+
+.thesis-features .image-container {
+    width: 35%;
+}
+
+.thesis-features .info {
+    width: 65%;
+    margin-left: 1rem;
 }
 
 .thesis-features .container {
     width: 100%;
     display: flex;
     align-items: center;
+    padding: 1rem 1rem;
 }
 
-.thesis .image-container {
-    padding: 1rem 1rem;
+.thesis-features .container:first-child {
+    background-color: gainsboro;
 }
 
 /** Footer **/
