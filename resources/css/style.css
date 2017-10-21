@@ -18,6 +18,27 @@ img {
     max-width: 100%;
 }
 
+video {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /** Navigation **/
 header {
     position: fixed;
@@ -127,12 +148,10 @@ nav {
 .main-feature h2 {
     font-size: 2rem;
     font-weight: 700;
+    text-align: left;
 }
 
 .main-feature p {
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.4;
     margin-top: 1.5rem;
 }
 
@@ -156,15 +175,7 @@ nav {
     padding: 1rem 1rem;
 }
 
-.sub-features h3 {
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
 .sub-features p {
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.4;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -182,22 +193,11 @@ nav {
     background-color: #eaebec;
 }
 
-.learn h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-}
-
 .learn h3 {
-    font-size: 1.5rem;
-    font-weight: 500;
     margin-bottom: 0.5rem;
 }
 
 .learn p {
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.4;
     margin-top: 0.5rem;
 }
 
@@ -222,3 +222,66 @@ nav {
     background-color: white;
 }
 
+/** Thesis **/
+
+.thesis {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: white;
+}
+
+.thesis-content {
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+}
+
+.video-container {
+    width: 100%; 
+    padding-bottom: 1.5rem;
+}
+
+.thesis .container {
+    width: 60%;
+}
+
+.thesis p {
+    margin-top: 0.5rem;
+}
+
+.thesis .image-container {
+    width: 35%;
+}
+
+.thesis-features {
+    width: 40%;
+    margin-left: 1.5rem;
+}
+
+.thesis-features .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.thesis .image-container {
+    padding: 1rem 1rem;
+}
+
+/** Footer **/
+
+footer {
+    padding: 1rem 1.5rem;
+}
+
+footer .container {
+    display: flex;
+    font-size: 0.75rem;
+}
+
+footer .copyright {
+    flex-grow: 1;
+}
+
+.footlinks {
+}
