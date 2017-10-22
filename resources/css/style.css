@@ -39,6 +39,12 @@ h3 {
     font-weight: 500;
 }
 
+h4 {
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.4; 
+}
+
 /** Navigation **/
 header {
     position: fixed;
@@ -65,10 +71,6 @@ header .mobile {
     padding: 1rem 0 1rem 1.5rem;
 }
 
-.logo img {
-    
-}
-
 header nav ul {
     display: flex;
 }
@@ -85,6 +87,40 @@ nav {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 760px) {
+    .navbox {
+        width: 100%;
+    }
+    
+    nav li:first-child {
+        padding-left: 0;
+    }
+    
+    header .desktop {
+        display: none;
+    }
+    
+    header .mobile {
+        display: block;
+        width: 100%
+    }
+    
+    header .mobile ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    header .mobile ul:first-child {
+        padding-left: 0;
+    }
+    
+    header h4 {
+        display: none;
+    }
+}
+
 /** Jumbotron **/
 .jumbo {
     display: flex;
@@ -96,7 +132,7 @@ nav {
 .jumbo .image-container {
     width: 60%;
     padding: 2rem 1.5rem;
-    margin-top: 4rem;    
+    padding-top: 6rem;    
 }
 
 
@@ -123,6 +159,27 @@ nav {
     margin-bottom: 1.5rem;
     font-weight: 600;
     line-height: 1.5;
+}
+
+@media only screen and (max-width: 760px) {
+    .jumbo {
+        display: block;
+    } 
+    
+    .jumbo .image-container {
+        width: 100%;
+        padding: 4rem 0 0 0;
+    }
+    
+    .jumbo .container {
+        width: 92%;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+    
+    .button {
+        margin-top: 1.5rem;
+    }
 }
 
 /** Featured Content **/
@@ -268,7 +325,7 @@ nav {
 }
 
 .thesis-features .container {
-    width: 100%;
+    width: 93.8%;
     display: flex;
     align-items: center;
     padding: 1rem 1rem;
@@ -291,7 +348,4 @@ footer .container {
 
 footer .copyright {
     flex-grow: 1;
-}
-
-.footlinks {
 }
