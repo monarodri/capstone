@@ -51,6 +51,7 @@ header {
     width: 100%;
     height: 4rem;
     background-color: white;
+    border-bottom: solid 1px #c6c1c1;
     z-index: 1;
 }
 
@@ -332,6 +333,51 @@ img.mobile {
     background-color: white;
 }
 
+@media only screen and (max-width: 760px) {
+    .learn {
+        padding: 2rem 0 1rem 1rem;
+        background-color: white;
+    }
+    
+    .rowone {
+        display: block;
+        margin: 1rem 1rem 0.5rem 0;
+    }
+    
+    .rowtwo {
+        display: block;
+        margin: 0.5rem 1rem 2rem 0;
+    }
+    
+    .rowone .container, .rowtwo .container {
+        width: 100%;
+    }
+    
+    .rowone .info, .rowtwo .info{
+        max-width: 100%;
+        margin-top: 0.5rem;
+        padding: 1rem 1rem;
+        background-color: gainsboro;
+    }
+    
+    .rowone img, .rowtwo img {
+        display: none;
+    }
+    
+    .learn p {
+        display: none;
+    }
+    
+    .learn span {
+        display: none;
+    }
+    
+    .learn h3 {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
+
 /** Thesis **/
 
 .thesis {
@@ -384,6 +430,26 @@ img.mobile {
     background-color: gainsboro;
 }
 
+@media only screen and (max-width: 760px) {
+    .thesis-features {
+        display: none;
+    }
+    
+    .thesis .info {
+        display: none;
+    }
+    
+    .thesis .container {
+        width: 100%;
+    }
+    
+    .thesis-content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+}
+
 /** Footer **/
 
 footer {
@@ -397,4 +463,10 @@ footer .container {
 
 footer .copyright {
     flex-grow: 1;
+}
+
+@media only screen and (max-width: 760px) {
+    .footlinks {
+        display: none;
+    }
 }
